@@ -2,9 +2,9 @@ import 'dotenv/config';
 import express from 'express';
 import { KommoLeadRepository } from './repository/KommoLeadRepository';
 import { CreateLeadUseCase } from './usecases/CreateLeadUseCase';
-import { CreateLeadController } from './controllers/CreateLeadController';
+import { CreateLeadController, FindLeadByIdController } from './controllers/LeadController';
 import { FindLeadByIdUseCase } from './usecases/FindLeadByIdUseCase';
-import { FindLeadByIdController } from './controllers/FindLeadByIdControler';
+
 
 const app = express();
 app.use(express.json());

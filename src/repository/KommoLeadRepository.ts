@@ -3,7 +3,6 @@ import axios from 'axios';
 export interface LeadData {
   name: string;
   price?: number;
-  
 }
 
 export interface ILeadRepository {
