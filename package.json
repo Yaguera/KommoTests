@@ -1,0 +1,33 @@
+{
+  "name": "kommo-api-clean-architecture",
+  "version": "1.0.0",
+  "description": "API em Node.js com TypeScript e Clean Architecture para integração com a Kommo API v4",
+  "main": "dist/main.js",
+  "scripts": {
+    "dev": "ts-node-dev --respawn --transpile-only src/main.ts",
+    "build": "tsc",
+    "start": "node dist/main.js"
+  },
+  "keywords": [
+    "kommo",
+    "api",
+    "v4",
+    "clean-architecture",
+    "typescript",
+    "express",
+    "axios"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.2",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.14.9",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.5.2"
+  }
+}
